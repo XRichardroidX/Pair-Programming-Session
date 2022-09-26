@@ -17,7 +17,7 @@ header {
   padding: 30px 10px 0 10px;
   color: black;
   font-size: 270%;
-  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
 }
 
 .welcome {
@@ -36,7 +36,7 @@ header {
 
 .welcome-message {
   font-size: 40px;
-  font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", Arial, sans-serif;
   padding-left: 10vw;
   padding-right: 10vw;
   line-height: 70px;
@@ -129,7 +129,6 @@ h3 {
 }
 
 .information {
-  
   background-color: white;
   position: absolute;
   border-radius: 10px;
@@ -149,7 +148,7 @@ h3 {
 }
 
 .skills {
-/*  display: flex;
+  /*  display: flex;
   justify-content: space-around; */
   margin-left: 2vw;
   font-family: Arial, sans-serif;
@@ -274,14 +273,16 @@ h3 {
 }
 
 .languages {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
   text-align: center;
   font-family: Arial, sans-serif;
   padding-top: 15%;
 }
 
 .language {
+  float: left;
+  position: relative;
   background-color: white;
   font-weight: 600;
   font-size: 12px;
@@ -291,8 +292,8 @@ h3 {
   text-align: center;
   color: #36b37e;
   border-radius: 10px;
-  margin: 2%;
-  padding: 5%;
+  margin: 2px 3px;
+  padding: 10px 8px;
   height: 20px;
 }
 
