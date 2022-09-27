@@ -136,7 +136,7 @@ h3 {
   width: 300px;
 }
 
-.abc {
+.title-x {
   position: relative;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -148,8 +148,6 @@ h3 {
 }
 
 .skills {
-  /*  display: flex;
-  justify-content: space-around; */
   margin-left: 2vw;
   margin-bottom: 15px;
   font-family: Arial, sans-serif;
